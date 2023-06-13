@@ -177,53 +177,6 @@ nav ul li a:hover {
     transform: scale(1.2);
 }
 
-/* Blog section */
-.blog {
-    background-color: #f4f4f4;
-    padding: 80px 0;
-    text-align: center;
-}
-
-.blog-posts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.blog-post {
-    flex: 1;
-    max-width: 400px;
-    padding: 20px;
-    margin: 20px;
-    text-align: left;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.blog-post h3 {
-    margin: 0;
-}
-
-.blog-post p {
-    margin-bottom: 10px;
-}
-
-.blog-post .date {
-    color: #999;
-}
-
-/* Resume section */
-.resume {
-    padding: 80px 0;
-    text-align: center;
-}
-
-.resume-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 /* Footer */
 footer {
     background-color: #555;
