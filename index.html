@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vaibhavi Bhurane - Portfolio</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            border-bottom-color: #fff;
+        }
+
+        /* Hero section */
+        .hero {
+            background-image: url('hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 200px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 20px 0 0;
+        }
+
+        /* About section */
+        .about {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .about p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        /* Projects section */
+        .projects {
+            background-color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .projects h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .projects .project {
+            display: inline-block;
+            margin: 40px;
+            text-align: left;
+            max-width: 300px;
+        }
+
+        .projects .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .projects .project h3 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .projects .project p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        /* Contact section */
+        .contact {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .contact .social-links {
+            margin-top: 30px;
+        }
+
+        .contact .social-links a {
+            display: inline-block;
+            margin: 10px;
+            color: #333;
+            font-size: 24px;
+            transition: transform 0.3s;
+        }
+
+        .contact .social-links a:hover {
+            transform: scale(1.2);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #555;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vaibhavi Bhurane</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Computer Science Engineer | Full Stack Developer</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate computer science engineer with expertise in full stack web development. I love building
+            innovative and user-friendly applications that solve real-world problems. With a strong foundation in
+            programming languages and frameworks, I am continuously expanding my knowledge and skills in the ever-evolving
+            field of technology.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Description of Project 3</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to discuss a project or have any questions, feel free to reach out to me. Let's connect and
+            create something amazing together!</p>
+        <div class="social-links">
+            <a href="mailto:vaibhavi@example.com"><img src="email-icon.png" alt="Email"></a>
+            <a href="https://www.linkedin.com/in/vaibhavi-bhurane"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://github.com/vaibhavi-bhurane"><img src="github-icon.png" alt="GitHub"></a>
+            <a href="https://twitter.com/vaibhavi_b"><img src="twitter-icon.png" alt="Twitter"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vaibhavi Bhurane. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
